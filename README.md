@@ -18,19 +18,38 @@
 <p>4 the birthday of the primes=knots analogy <a href="http://www.neverendingbooks.org/the-birthday-of-the-primesknots-analogy">http://www.neverendingbooks.org/the-birthday-of-the-primesknots-analogy</a></p>
 <!-- /wp:paragraph -->
 
-## 局部类域论的证明
-1 历史上，局部类域论首先是从整体类域论推出的，可以参考 Hasse 30年代初的论文（德语）。很重要的是，在上同调证明成为教科书里的标准证明前，几乎每本书的证明都不太一样，所以我的总结是基于基本思路的。
-2 历史上第一个独立的证明是基于 central simple algebras 和 Brauer group of a local field。可以参考Schmidt，Hasse，Chevalley 30年代初各自的论文（多为德语）。
-3 上同调证明出现在五六十年代，现在的标准证明之一。关于这个证明，请参考https://bookstore.ams.org/mmono-240，他们的证明简化了原始证明，但是非常非常简略。
-4 Lubin-Tate theory, 现在的标准证明之二。3 和 4 如此不同，就我所知，至今没有人能解释这两者的联系。我的直觉是，这两者发生在不同的topoi之中。
-5 Hazewinkel's proof: https://www.sciencedirect.com/science/article/pii/0001870875901565 被埋没的证明，Iwasawa为此写过一本小册子，有中文版，冯克勤译，暂无英文版。Iwasawa也写过一个关于Lubin-Tate的小册子，和上一本同名，也叫"局部类域论"，有英文版。
-6（只能证明char p情形）Using Artin–Schreier–Witt theory to prove the char p case Yukiyosi Kawada and Ichiro Satake, Class formations. II, J. Fac. Sci. Univ. Tokyo Sect. IA Math.  (1956), 353–389. 只有Fesenko记得的证明，虽然只能证明char p情形，但很简单。参考https://doi.org/10.1007/s40879-018-0245-x
-7 local Tate duality: 一般是从local CFT推出local Tate duality，但是后者可以被独立证明，所以可以反过来。参考 Herr, L. Une approche nouvelle de la dualité locale de Tate. Math Ann 320, 307–337 (2001). https://doi.org/10.1007/PL00004476 这个证明可以算作Galois representations over local fields的应用。
-8 Neukirch's mechanism  Neukirch, J. Neubegründung der Klassenkörpertheorie. Math Z 186, 557–574 (1984). https://doi.org/10.1007/BF01162780  https://doi.org/10.1007/978-3-642-82465-4  https://doi.org/10.1007/978-3-540-37663-7  Neukirch, J. Micro primes. Math. Ann. 298, 629–666 (1994). https://doi.org/10.1007/BF01459755 Neukirch最后一篇论文，还没来得及发展自己的理论就去世了。现在除了Fesenko也几乎没人在乎了。
-9 Fargues' geometrization program https://arxiv.org/abs/1705.01526
-10 Using isocrystals: 参考R. Crew https://arxiv.org/abs/1710.05707 这个证明显然和 2 有很多联系。Crew基于这篇文章还写过lecture notes， 可以参考https://people.clas.ufl.edu/rcrew/files/LCFT.pdf
-11 K-theoretic and higher categorical approach: D. Clausen https://arxiv.org/abs/1703.07842
-12 Fesenko作为这个领域为数不多的专家，写过一篇总结https://www.maths.nottingham.ac.uk/plp/pmzibf/232.pdf
+## 局部类域论的证明概览 by [Yiqi Xu](https://github.com/YiqiXu)
+
+与整体类域论（GCFT）相似，也存在许多局部类域论（LCFT）的证明。上同调证明在上世纪50年代出现后逐渐固化为教科书里的标准证明，这一过程一直持续到21世纪初。在此期间，几乎每本介绍局部类域论的书给出的证明都不完全一致，所以笔者的总结是基于基本思路和方法的。尽管笔者尽了最大努力，限于眼界和知识有限，以下总结可能仍然不完整，欢迎补充和评论。以下列表主要依据主要文献的出版（或公开）时间排序。  
+
+0. 历史上，LCFT 首先是从 GCFT 推出的，可以参考 Hasse 30年代初的论文（德语），链接稍后补充。
+1. ***Central Simple Algebras*** 历史上第一个独立的证明是基于 central simple algebras 和 Brauer group of a local field。可以参考Schmidt，Hasse，Chevalley 30年代初各自的论文（德语或法语），链接稍后补充。
+    - [Number Theory 2: Introduction to Class Field Theory](https://bookstore.ams.org/mmono-240) 第8章给出该方法一个较现代的介绍。他们的证明简化了原始证明，但是非常非常简略。
+2. ***Galois Cohomology*** 上同调证明出现在五六十年代，现在的教科书证明之一。参考大多类域论的教科书，不赘述。
+3. ***Lubin-Tate Theory*** 现在的教科书证明之二。参考大多类域论的教科书，不赘述。方法 2. 和 3. 如此不同，就我所知，至今没有人能解释这两者的联系。Iwasawa 写过一个关于 Lubin-Tate 的日语小册子，英译版为 [Local Class Field Theory](https://books.google.de/books/about/Local_Class_Field_Theory.html?id=iJ7vAAAAMAAJ&redir_esc=y).
+4. ***Kawada-Satake Method*** 主要思路基于Artin-Witt-Schreier theory. 
+    > Yukiyosi Kawada and Ichiro Satake, Class formations. II, J. Fac. Sci. Univ. Tokyo Sect. IA Math.  (1956), 353–389.  
+
+    该证明只有 Fesenko 还不时强调其重要性，虽然只能证明 char p 情形，但很简单。由于难以获得原始论文，现代文献请参考 [Generalised Kawada-Satake method for Mackey functors in class field theory](https://doi.org/10.1007/s40879-018-0245-x).
+5. ***Hazewinkel-Serre Method*** Hazewinkel在他的博士论文给出了新的证明，先证明the case of ramified abelian extesnions，再扩展到一般情况。正式发表为 [Local class field theory is easy](https://doi.org/10.1016/0001-8708(75)90156-5). Iwasawa 也为此写过一本日语小册子，中文版《局部类域论》冯克勤译，暂无英文版。
+6. ***Neukirch's Mechanism*** Neukirch 为类域论的公理化做过许多工作，此过程中他也给出了新证明，他的方法可以理解为先the case of unramified abelian extesnions，再扩展到一般情况。所以 Fesenko 认为 Neukirch‘s mechanism 应该和 Hazewinkel-Serre method 结合起来，事实也确实如此，两者构造的 “Artin map” 互逆，进一步简化了证明。Neukirch 的工作阐明了一点，上同调不是类域论的核心。他在这方面的工作主要集中在下列文献中：
+    - [Neubegründung der Klassenkörpertheorie](https://doi.org/10.1007/BF01162780)（德语）
+    - [Class Field Theory](https://doi.org/10.1007/978-3-642-82465-4) 
+    - [Algebraische Zahlentheorie](https://doi.org/10.1007/978-3-540-37663-7)（德语）
+    - [Micro primes](https://doi.org/10.1007/BF01459755) 这是 Neukirch 去世前最后一篇论文。
+    Fesenko 一直在强调该方法的重要性，笔者同意他的观点，无奈近二十年的发展几乎为零。
+7. ***Local Tate Duality*** 一般 local Tate duality 由 LCFT 推出，但是后者可以被独立证明，所以可以反过来。参考 [Une approche nouvelle de la dualité locale de Tate](https://doi.org/10.1007/PL00004476). 这个证明可以算作Galois representations over local fields的应用。
+8. ***Fargues' Geometrization Program*** Fargues 从他的几何化猜想出发给出了新证明，可参考[Simple connexité des fibres d'une application d'Abel-Jacobi et corps de classe local](https://doi.org/10.24033/asens.2418). Fargues 认为他的证明优于其他所有证明，笔者持保留态度。
+9. ***Isocrystals*** Crew 利用 isocrystal 的性质给出了一个新证明，请参考 [Weil groups and F-isocrystals](https://arxiv.org/abs/1710.05707). 该证明和证明 2. 大同小异。Crew 基于这篇文章还写过讲义 [Local Class Field Theory](https://people.clas.ufl.edu/rcrew/files/LCFT.pdf).
+10. ***K-theory*** [A K-theoretic approach to Artin maps](https://arxiv.org/abs/1703.07842).
+
+Fesenko 作为这个领域为数不多的专家，写过一篇概览 [Class Field Theory, its three main generalisations, and applications](https://doi.org/10.4171/EMSS/45), 可作为补充。
+
+我们自然有以下问题：
+- 是否有一个框架可以统一以上所有方法？
+- 是否可以推广到整体域？（对于大多数答案是肯定的）
+- 是否可以推广到高维？
+- 是否可以推广到 non-abelian 情形？
 
 ## 为什么 Langlands 只关心曲线而不关心高维簇？
 comment on why is it that we only consider curves and not higher dimensional varieties. The point is that while function fields of curves are very similar to number fields, the fields of functions on higher dimensional varieties have a very different structure. For example, if X is a smooth surface, then the completions of the field of rational functions on X are labeled by pairs: a point x of X and a germ of a curve passing through x. The corresponding complete field is isomorphic to the field of formal power series in two variables. At the moment no one knows how to formulate an analogue of the Langlands correspondence for the field of functions on an algebraic variety of dimension greater than one, and finding such a formulation is a very important open problem. There is an analogue of the abelian class field theory , i.e. higher class field theory, but not much is known beyond that.

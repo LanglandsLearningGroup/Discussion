@@ -1,24 +1,15 @@
 # Discussion
 或许可以在这里提出各种数学问题，可惜不支持 Latex.
 
-## 素数和扭结
-<!-- wp:paragraph -->
-<p>1 Mazur’s knotty dictionary <a href="http://www.neverendingbooks.org/mazurs-dictionary">http://www.neverendingbooks.org/mazurs-dictionary</a></p>
-<!-- /wp:paragraph -->
+## 素数和扭结 Primes and Knots
 
-<!-- wp:paragraph -->
-<p>2 What is the knot associated to a prime? <a href="http://www.neverendingbooks.org/what-is-the-knot-associated-to-a-prime">http://www.neverendingbooks.org/what-is-the-knot-associated-to-a-prime</a></p>
-<!-- /wp:paragraph -->
+- [Mazur’s knotty dictionary](http://www.neverendingbooks.org/mazurs-dictionary)
+- [What is the knot associated to a prime?](http://www.neverendingbooks.org/what-is-the-knot-associated-to-a-prime)
+- [Who dreamed up the primes=knots analogy?](http://www.neverendingbooks.org/who-dreamed-up-the-primesknots-analogy)
+- [the birthday of the primes=knots analogy](http://www.neverendingbooks.org/the-birthday-of-the-primesknots-analogy)
 
-<!-- wp:paragraph -->
-<p>3 Who dreamed up the primes=knots analogy? <a href="http://www.neverendingbooks.org/who-dreamed-up-the-primesknots-analogy">http://www.neverendingbooks.org/who-dreamed-up-the-primesknots-analogy</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>4 the birthday of the primes=knots analogy <a href="http://www.neverendingbooks.org/the-birthday-of-the-primesknots-analogy">http://www.neverendingbooks.org/the-birthday-of-the-primesknots-analogy</a></p>
-<!-- /wp:paragraph -->
-
-## 局部类域论的证明概览 by [Yiqi Xu](https://github.com/YiqiXu)
+## 局部类域论的证明概览 
+by [Yiqi Xu](https://github.com/YiqiXu)
 
 与整体类域论（GCFT）相似，也存在许多局部类域论（LCFT）的证明。上同调证明在上世纪50年代出现后逐渐固化为教科书里的标准证明，这一过程一直持续到21世纪初。在此期间，几乎每本介绍局部类域论的书给出的证明都不完全一致，所以笔者的总结是基于基本思路和方法的。尽管笔者尽了最大努力，限于眼界和知识有限，以下总结可能仍然不完整，欢迎补充和评论。以下列表主要依据主要文献的出版（或公开）时间排序。  
 

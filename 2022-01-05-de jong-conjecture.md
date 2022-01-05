@@ -32,5 +32,7 @@ There exists an integer $ k $ such that all $ P_{g} $ split over $ \mathbb{F}_{\
   
 $$ Q_{g}:=\text{the image of $ \tilde{P}_{g} $ in $ (\overline{\mathbb{Z}_{p}}/p\overline{\mathbb{Z}_{p}})[X] $} $$
   
-  ## <p> Question: Is there a representation $ \rho':\pi_{1}(X)\to GL_{d}(\overline{\mathbb{F}_{p}}) $ such that, for any $ g\in \pi_{1}(X) $, the characteristic polynomial of $ \rho'(g) $ is $ Q_{g} $?
+## Question:
+  
+  Is there a representation $ \rho':\pi_{1}(X)\to GL_{d}(\overline{\mathbb{F}_{p}}) $ such that, for any $ g\in \pi_{1}(X) $, the characteristic polynomial of $ \rho'(g) $ is $ Q_{g} $?
 

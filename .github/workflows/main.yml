@@ -1,4 +1,7 @@
-copy_packages:
+on: push
+
+jobs:
+  copy-file:
     runs-on: ubuntu-latest
     steps:
       - name: Sync files to blog
@@ -10,3 +13,5 @@ copy_packages:
           dst_owner: LanglandsLearningGroup
           dst_repo_name: LanglandsLearningGroup.github.io
           file_filter: '*.md'
+
+          name: Push File

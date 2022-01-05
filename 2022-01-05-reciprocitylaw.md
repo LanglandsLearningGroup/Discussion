@@ -11,5 +11,11 @@ key: reciprocitylaw
 
 $$ f(X_{1},\cdot,X_{r})=0 $$
 
-这里  是整系数多项式. 例如   等等. 费马大定理就是断言当  时，方程 
-没有正整数解. 可是这个小学生都能看得懂、看起来并不困难的问题却花费了人类三百多年的时间！这表明求解丢番图方程是极其困难的问题（至少对现在的人们来说），你随便举几个丢番图方程，问有没有解，可能这个星球最优秀的数论学家也不知道. 这也侧面表明现代数学还有很长的路要走.
+## Fermat Last Theorem: For $ n>2 $, the equation $ x^{n}+y^{n}=z^{n} $ has no non-zero integer solutions.
+  
+The case of $ n=3 $ was proved by Euler and the case of $ n=4 $ was proved by Euler. Since $ \textbf{FLT(d)}\implies \textbf{FLT(n)} $ whenever $ d|n $, our goal becomes
+  
+### If $\ell\geq 5 $ is a prime, then $ a^{\ell}+b^{\ell}=c^{\ell} $ has no nonzero integer solutions.
+
+(Frey curve) Suppose that there's a solution  $ (a,b,c) $ to the Fermat's equation. Let us consider the Frey curve $ E=E_{a^{\ell},b^{\ell},c^{\ell}}: y^{2}=x(x-a^{\ell})(x+b^{\ell}) $，it's a elliptic curve over $ \mathbb{Q} $ satisfying  (1) it's semistable with conductor $ N=\prod_{p|abc}p$ （where $ p$ runs over primes),  (2) one can construct a Galois representation $  \bar{\rho}_{E,\ell}:G_{\mathbb{Q}}=Gal(\bar{\mathbb{Q}}/\mathbb{Q})\to \text{Aut}(E(\ell))\simeq GL_{2}(\mathbb{F}_{\ell})$.
+  

@@ -10,7 +10,7 @@ comment on why is it that we only consider curves and not higher dimensional var
 
 ## An open question from V. Drinfeld. 
 
-Let $ X $ be an irreducible smooth variety over a finite field $ \mathbb{F}_{p} $ and let $ \mathcal{E} $ be an irreducible lisse $ \overline{\mathbb{Q}_{\ell}} $-sheaf with $ \ell\neq p $ of rank $ r $ on $  X $ whose determinant has finite order. Let $ K $ be the field of ration functions on $ X $ and let $ \rho $ be the $ \ell $-adic representation of $ \text{Gal}(\overline{K}/K) $ corresponding to $ \mathcal{E} $. Is it true that a certan Tate twist of $ \rho $ appears as a subquotient of $ H^{i}(Y\times_{K}\bar{K},\overline{\mathbb{Q}_{\ell}}) $ for some algebraic variety $ Y $ over $ K $ and some number $ i $?
+<p> Let $ X $ be an irreducible smooth variety over a finite field $ \mathbb{F}_{p} $ and let $ \mathcal{E} $ be an irreducible lisse $ \overline{\mathbb{Q}_{\ell}} $-sheaf with $ \ell\neq p $ of rank $ r $ on $  X $ whose determinant has finite order. Let $ K $ be the field of ration functions on $ X $ and let $ \rho $ be the $ \ell $-adic representation of $ \text{Gal}(\overline{K}/K) $ corresponding to $ \mathcal{E} $. Is it true that a certan Tate twist of $ \rho $ appears as a subquotient of $ H^{i}(Y\times_{K}\bar{K},\overline{\mathbb{Q}_{\ell}}) $ for some algebraic variety $ Y $ over $ K $ and some number $ i $?
 
 
 L. Lafforgue gave a positive answer to the above Question if $ \text{dim}(X)=1 $. Neverthless, it remains open if $ \text{dim}(X)>1 $.

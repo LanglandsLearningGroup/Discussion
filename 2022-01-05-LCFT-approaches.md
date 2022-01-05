@@ -4,9 +4,8 @@ tags: discussion
 title: 局部类域论的证明概览
 mathjax: true
 permalink: LCFT_approaches.html
+author: Yiqi Xu
 ---
-by [Yiqi Xu](https://github.com/YiqiXu)
-
 与整体类域论（GCFT）相似，也存在许多局部类域论（LCFT）的证明。上同调证明在上世纪50年代出现后逐渐固化为教科书里的标准证明，这一过程一直持续到21世纪初。在此期间，几乎每本介绍局部类域论的书给出的证明都不完全一致，所以笔者的总结是基于基本思路和方法的。尽管笔者尽了最大努力，限于眼界和知识有限，以下总结可能仍然不完整，欢迎补充和评论。以下列表主要依据主要文献的出版（或公开）时间排序。  
 
 1. 历史上，LCFT 首先是从 GCFT 推出的，可以参考 Hasse 30年代初的论文（德语），链接稍后补充。

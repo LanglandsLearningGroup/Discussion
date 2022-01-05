@@ -4,6 +4,7 @@ tags: discussion
 title: 素数和扭结 Primes and Knots
 mathjax: true
 permalink: primes_and_knots.html
+key: primes_and_knots
 ---
 - [Mazur’s knotty dictionary](http://www.neverendingbooks.org/mazurs-dictionary)
 - [What is the knot associated to a prime?](http://www.neverendingbooks.org/what-is-the-knot-associated-to-a-prime)

@@ -16,7 +16,7 @@ key: dejongconj
   <li>the restriction $ \bar{\rho}|_{\pi_{1}(\overline{X})} $ is absolutely irreducible, and </li>
   <li>$ \ell $ does not divide $ n $.</li>
 </ol>
-Then $ R_{X}^{\eta} $ is finite flat over $ \mathbb{Z}_{\ell} $ and it is a complete intersection ring. In particular, $ \bar{\rho} $ can be lifted to an $ \ell $-adic representation $ \rho:\pi_{1}(X)\to GL_{n}(\mathcal{O}) $.
+<p> Then $ R_{X}^{\eta} $ is finite flat over $ \mathbb{Z}_{\ell} $ and it is a complete intersection ring. In particular, $ \bar{\rho} $ can be lifted to an $ \ell $-adic representation $ \rho:\pi_{1}(X)\to GL_{n}(\mathcal{O}) $.
 
 ## Relationship between $ \overline{\mathbb{F}_{\ell}
 
@@ -24,7 +24,7 @@ Then $ R_{X}^{\eta} $ is finite flat over $ \mathbb{Z}_{\ell} $ and it is a comp
   
 $$ P_{\rho}:\pi_{1}(X)\to \overline{\mathbb{F}_{\ell}}[X],~~g\mapsto P_{g}:=\text{characteristic polynomail of $ \rho(g) $}. $$
   
-There exists an integer $ k $ such that all $ P_{g} $ split over $ \mathbb{F}_{\ell^{k}} $. For any $ g\in G $, if $ P_{g}=\prod_{i=1}^{d}(X-\alpha_{i}) $ for some $ \alpha_{i}\in \mathbb{F}_{\ell^{d}} $, then we define
+<p> There exists an integer $ k $ such that all $ P_{g} $ split over $ \mathbb{F}_{\ell^{k}} $. For any $ g\in G $, if $ P_{g}=\prod_{i=1}^{d}(X-\alpha_{i}) $ for some $ \alpha_{i}\in \mathbb{F}_{\ell^{d}} $, then we define
   
  $$ \tilde{P}_{g}:=\prod_{i=1}^{d}(X-\tau(\alpha_{i}))\in W(\mathbb{F}_{\ell^{k}})[X] $$
   

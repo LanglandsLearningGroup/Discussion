@@ -6,4 +6,4 @@
     dst_path: /_posts/
     dst_owner: LanglandsLearningGroup
     dst_repo_name: LanglandsLearningGroup.github.io
-    file_filter: *.md
+    file_filter: '*.md'

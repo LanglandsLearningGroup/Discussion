@@ -13,5 +13,3 @@ jobs:
           dst_owner: LanglandsLearningGroup
           dst_repo_name: LanglandsLearningGroup.github.io
           file_filter: '*.md'
-
-          name: Push File

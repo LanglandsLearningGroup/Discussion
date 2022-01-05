@@ -3,9 +3,9 @@ layout: article
 tags: discussion
 title: 互反律
 mathjax: true
-permalink: reciprocitylaw.html
+permalink: dejongconj.html
 author: Yufan Luo
-key: reciprocitylaw
+key: dejongconj
 ---
 
 ## A conjecture of A.J. de jong

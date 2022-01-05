@@ -1,12 +1,6 @@
 # Discussion
 你可以在这里讨论数学问题，支持 Latex！在创作前请耐心仔细读完这份文件 https://github.com/LanglandsLearningGroup/LanglandsLearningGroup.github.io/blob/master/instruction.md
 
-## 素数和扭结 Primes and Knots
-
-- [Mazur’s knotty dictionary](http://www.neverendingbooks.org/mazurs-dictionary)
-- [What is the knot associated to a prime?](http://www.neverendingbooks.org/what-is-the-knot-associated-to-a-prime)
-- [Who dreamed up the primes=knots analogy?](http://www.neverendingbooks.org/who-dreamed-up-the-primesknots-analogy)
-- [the birthday of the primes=knots analogy](http://www.neverendingbooks.org/the-birthday-of-the-primesknots-analogy)
 
 ## 局部类域论的证明概览 Approaches to Local Class Field Theory
 by [Yiqi Xu](https://github.com/YiqiXu)
@@ -43,15 +37,3 @@ Fesenko 作为这个领域为数不多的专家，写过一篇概览 [Class Fiel
 
 甚至几乎没有人猜想高维 non-abelian Artin map 长什么样，以及高维 non-abelian existence theorem 如何陈述。
 这两种方法会相互促进的。表示论显然不能解决所有问题，比如 Shafarevich conjecture ，即使 global Langlands 被完全证明了，我们也很难直接了解 if commutator subgroup of the absolute Galois group of Q is free，而我们如果能证明 global non-abelian Artin map is isomorphism，这个问题会简化很多。
-
-## 为什么 Langlands 只关心曲线而不关心高维簇？
-comment on why is it that we only consider curves and not higher dimensional varieties. The point is that while function fields of curves are very similar to number fields, the fields of functions on higher dimensional varieties have a very different structure. For example, if X is a smooth surface, then the completions of the field of rational functions on X are labeled by pairs: a point x of X and a germ of a curve passing through x. The corresponding complete field is isomorphic to the field of formal power series in two variables. At the moment no one knows how to formulate an analogue of the Langlands correspondence for the field of functions on an algebraic variety of dimension greater than one, and finding such a formulation is a very important open problem. There is an analogue of the abelian class field theory , i.e. higher class field theory, but not much is known beyond that.
-
-## 啥不能弄到 $GL_3$?
-看到之前说的为什么不搞到GL_3。我觉得可以补充一点，当然我不确定这是主要困难）在Galois那边有一个困难的地方，就是难以显式地找出(potentially) semistable/crystalline lift to char 0. 因为local-global compatibility, 来自automorphic representation的Galois representation 会有一定的p-adic Hodge thy 的要求。然后这个要求很难显式地从F_p提升到Q_p, 因为难以计算的H^1 obstruction(在très ramifieé case) 我之前想做这个 我导师表示最好不要做，这个基本不可能做.可以参考这个 这是可能Galois方面的满足一定p-adic Hodge条件的lifting里面最强的结果了。 https://youtu.be/18CxluFd69A   https://mathoverflow.net/questions/74472/what-makes-langlands-for-n-2-easier-than-langlands-for-n2   https://mathoverflow.net/questions/43377/automorphic-forms-on-gl3   可以到 $GL_3$! https://www.galoisrepresentations.com/2017/06/23/new-results-in-modularity-part-i/
-
-## $R\simeq T$?
-有个很重要的事实 就是 Hecke 代数可以写成一些eigensystem的积，那么局部化了之后就是eigensystem over \bar \rho 很自然地，根据泛性质就存在了一个映射R—>T;然后 容易严重它的满的 所以本质上TW方法就是证明它也是单的;patching 干了什么呢？它提供了一个东西，T在上面有个自然的作用。我们让R通过满射R—>T也作用在上面。Patching argument告诉我们R的作用是自由的 从而得到R——>T也是单的;关键就是那个东西怎么构造呢？其实用到了Hida thy的想法。先提升level, 再去不动点或者余不动点回归level。具体是写成一堆东西的极限。这个Toby Gee在AWS 2013他的最后两讲很形象地画了不少图 .
-
-
-

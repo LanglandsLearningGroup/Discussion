@@ -1,5 +1,5 @@
 # Discussion
-或许可以在这里提出各种数学问题，可惜不支持 Latex.
+你可以在这里讨论数学问题，支持 Latex！
 
 ## 素数和扭结 Primes and Knots
 

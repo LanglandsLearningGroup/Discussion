@@ -1,11 +1,6 @@
 # 讨论区编写指南
-你可以在这里讨论数学问题，支持 Latex！在创作前请耐心仔细读完如下指南。另外，几分钟读懂 [Markdown 基本语法](https://www.markdown.xyz/basic-syntax/#overview). 特别注意的是，在复制你的 latex 代码过来的时候，请用段落（Paragraphs），否则复制过来的 latex 代码来乱。
+你可以在这里讨论数学问题，支持 Latex！你只需要把你的 Latex 代码复制过来！在创作前请耐心仔细读完如下指南。另外，几分钟读懂 [Markdown 基本语法](https://www.markdown.xyz/basic-syntax/#overview). 特别注意的是，在复制你的 latex 代码过来的时候，请用段落（Paragraphs），否则复制过来的 latex 代码来乱。 所有讨论区文章在当前仓库，即[Discussion](https://github.com/LanglandsLearningGroup/Discussion)中进行编写改动，请不要在[LanglandsLearningGroup.github.io](https://github.com/LanglandsLearningGroup/LanglandsLearningGroup.github.io)改动，否则会被覆盖掉。我提倡一个话题一个文件。
 
-## 关于视频讲座与数据库
-继续按现有方式编写即，不要删除或改动文件头部的内容。
-
-## 关于讨论区
-所有讨论区文章仍在当前仓库，即[Discussion](https://github.com/LanglandsLearningGroup/Discussion)中进行编写改动。我提倡一个话题一个文件。
 ### 文件命名
 讨论区的所有文件名必须为`YYYY-MM-DD-title.md`的格式。其中`YYYY-MM-DD`为日期，需要创建者手动填写。`title`是可以随意取的，方便你自己识别便可。一般可由英语字母，数字，下话题和短横线组成。**如果文件不符合上述命名规则，则不会被系统识别。**
 ### 文件元信息

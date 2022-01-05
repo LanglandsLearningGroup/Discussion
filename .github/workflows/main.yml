@@ -8,6 +8,7 @@ jobs:
         uses: andstor/copycat-action@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          src_branch: main
           src_path: /.
           dst_path: /_posts/
           dst_owner: LanglandsLearningGroup

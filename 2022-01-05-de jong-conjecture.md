@@ -31,6 +31,7 @@ $$ P_{\rho}:\pi_{1}(X)\to \overline{\mathbb{F}_{\ell}}[X],~~g\mapsto P_{g}:=\tex
 <p> where $ \tau: \mathbb{F}_{\ell^{d}}\to W(\mathbb{F}_{\ell^{d}}) $ is the Teichmuller representation. Fix an isomorphism of the algebraic closure of $\mathbb{Q}  $ within $ \overline{\mathbb{Q}_{\ell}} $ and $ \overline{\mathbb{Q}_{p}} $. We may regard $ \tilde{P}_{g} $ as an element in $ \overline{\mathbb{Z}_{p}}[X] $. Then we define
   
 $$ Q_{g}:=\text{the image of $ \tilde{P}_{g} $ in $ (\overline{\mathbb{Z}_{p}}/p\overline{\mathbb{Z}_{p}})[X] $} $$</p>
+
 ### Question: 
 
 Is there a representation $ \rho':\pi_{1}(X)\to GL_{d}(\overline{\mathbb{F}_{p}}) $ such that, for any $ g\in \pi_{1}(X) $, the characteristic polynomial of $ \rho'(g) $ is $ Q_{g} $?

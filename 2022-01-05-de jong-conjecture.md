@@ -9,7 +9,7 @@ key: dejongconj
 ---
 
 ## A conjecture of A.J. de jong
-Let $$ X $$ be an integral scheme, separated and of finite type over a finite field $$ k $$ of characteristic $$ p $$. Let $$ \ell $$ be a prime number different from $$ p $$. Assume that $$ X $$ is a normal scheme. Let $$ \bar{\rho}:\pi_{1}(X)\to GL_{n}(\mathbb{F}_{\ell}) $$ be a continuous, absolutely irreducible representation of the arithmetic \'etale fundamental group of $$ X $$. Let $$ \mathcal{O} $$ be the ring of integers of a finite extension of the fraction field of $$ \mathbb{Z}_{\ell} $$ inside $$ \overline{\mathbb{Q}_{\ell}} $$. Fix a lift $$ \eta:\pi_{1}(X)\to \mathcal{O}^{\times} $$ of finite order of the $$ 1 $$-dimensional representation $$ \text{det}(\bar{\rho}) $$. Then we get a deformation ring $$ R_{X}^{\eta} $$ for deformations of $$ \bar{\rho} $$ of determinant $$ \eta $$ and defined on $$ \pi_{1}(X) $$.
+Let $$ X $$ be an integral scheme, separated and of finite type over a finite field $$ k $$ of characteristic $$ p $$. Let $$ \ell $$ be a prime number different from $$ p $$. Assume that $$ X $$ is a normal scheme. Let $$ \bar{\rho}:\pi_{1}(X)\to GL_{n}(\mathbb{F}_{\ell}) $$ be a continuous, absolutely irreducible representation of the arithmetic etale fundamental group of $$ X $$. Let $$ \mathcal{O} $$ be the ring of integers of a finite extension of the fraction field of $$ \mathbb{Z}_{\ell} $$ inside $$ \overline{\mathbb{Q}_{\ell}} $$. Fix a lift $$ \eta:\pi_{1}(X)\to \mathcal{O}^{\times} $$ of finite order of the $$ 1 $$-dimensional representation $$ \text{det}(\bar{\rho}) $$. Then we get a deformation ring $$ R_{X}^{\eta} $$ for deformations of $$ \bar{\rho} $$ of determinant $$ \eta $$ and defined on $$ \pi_{1}(X) $$.
   
 In the situation above, assume 
 

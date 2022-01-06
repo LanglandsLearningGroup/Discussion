@@ -15,6 +15,7 @@ In the situation above, assume
 
 * the restriction $$ \bar{\rho}\vert_{\pi_{1}(\overline{X})} $$ is absolutely irreducible, and
 * $$ \ell $$ does not divide $$ n $$.
+
 Then $$ R_{X}^{\eta} $$ is finite flat over $$ \mathbb{Z}_{\ell} $$ and it is a complete intersection ring. In particular, $$ \bar{\rho} $$ can be lifted to an $$ \ell $$-adic representation $$ \rho:\pi_{1}(X)\to GL_{n}(\mathcal{O}) $$.
 
 ## A question

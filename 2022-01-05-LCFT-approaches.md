@@ -30,12 +30,3 @@ key: lcft_approaches
 11. ***K-theory*** [A K-theoretic approach to Artin maps](https://arxiv.org/abs/1703.07842).
 
 Fesenko 作为这个领域为数不多的专家，写过一篇概览 [Class Field Theory, its three main generalisations, and applications](https://doi.org/10.4171/EMSS/45), 可作为补充。
-
-我们自然有以下问题：
-- 是否有一个框架可以统一以上所有方法？
-- 是否可以推广到整体域？（对于大多数答案是肯定的）
-- 是否可以推广到高维？
-- 是否可以推广到 non-abelian 情形？
-
-甚至几乎没有人猜想高维 non-abelian Artin map 长什么样，以及高维 non-abelian existence theorem 如何陈述。
-这两种方法会相互促进的。表示论显然不能解决所有问题，比如 Shafarevich conjecture ，即使 global Langlands 被完全证明了，我们也很难直接了解 if commutator subgroup of the absolute Galois group of Q is free，而我们如果能证明 global non-abelian Artin map is isomorphism，这个问题会简化很多。

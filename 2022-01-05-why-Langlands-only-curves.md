@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: discussion
-title: 为什么 Langlands 只关心曲线而不关心高维簇？
+title: why is it that we only consider curves and not higher dimensional varieties in the context of Langlands Program?
 mathjax: true
 permalink: why_langlands_only_curves.html
 key: why_langlands_only

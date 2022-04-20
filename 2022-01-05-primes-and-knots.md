@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: discussion
-title: 素数和扭结 Primes and Knots
+title: Primes and Knots
 mathjax: true
 permalink: primes_and_knots.html
 key: primes_and_knots

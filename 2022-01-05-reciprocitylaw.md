@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: discussion
-title: 互反律
+title: Reciprocity Law
 mathjax: true
 permalink: reciprocitylaw.html
 author: Yufan Luo

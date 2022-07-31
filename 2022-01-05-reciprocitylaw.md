@@ -1,7 +1,7 @@
 ---
 layout: article
 tags: discussion
-title: Reciprocity Law
+title: Langlands-Fontaine-Mazur conjecture
 mathjax: true
 permalink: reciprocitylaw.html
 author: Yufan Luo
